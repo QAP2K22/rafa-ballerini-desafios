@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+:root {
+    --background-Color: #18181B;
+    --backgroundInput: #27272A;
+    --textPrimary: #F4F4F5;
+    --textSecondary: #A1A1AA;
+    --textPlaceHolder: #52525B;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-Color);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 40px;
+}
+
+.container h1{
+    color: var(--textPrimary);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container h3 {
+    color: var(--textSecondary); font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.input input {
+    width: 560px;
+    height: 55px;
+    padding: 16px 24px;
+    background: var(--backgroundInput);
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+/*
+.input input ::placeholder {
+
+}
+*/
+
+.input .lupa img {
+    position: absolute;
+    top: 220px;
+    width: 16px;
+    height: 16px;
+    background-color: #18181B;
+}
